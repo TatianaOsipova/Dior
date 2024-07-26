@@ -1,30 +1,65 @@
-.playfair-display {
+
+  
+html{
+    box-sizing: border-box;
+}
+  
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+  
+.container{
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+  
+body{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #1b1b1b;
+}
+  
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.header__title{
     font-family: "Playfair Display", serif;  
-  }
-  
-  html{
-      box-sizing: border-box;
-  }
-  
-  *,
-  *::after,
-  *::before{
-      box-sizing: inherit;
-  }
-  
-  .container{
-      max-width: 1220px;
-      padding: 0 10px;
-      margin: 0 auto;
-  }
-  
-  body{
-      font-family: "Inter", sans-serif;
-      font-weight: 400;
-  }
-  
-  .header__inner{
-      display: flex;
-      justify-content: space-between;
-      padding-top: 30px;
-  }
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: auto;
+}
+
+.menu{
+    margin-left: 130px;
+    margin-right: 185px;
+
+}
+
+.menu__item{
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+
+}
+
+.user-nav{
+    display: flex;
+    gap: 0 20px;
+}
