@@ -72,19 +72,18 @@ body{
     margin-bottom: 150px;
 }
 
-.top-slide{
-    min-height: 700px;
+.top-slide{    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
 }
 
 .top-slide__inner{
+    min-height: 700px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 10px;
-    
 }
 
 .top-slide__content{
