@@ -1,31 +1,29 @@
-
-  
-html{
+html {
     box-sizing: border-box;
 }
-  
+
 *,
 *::after,
-*::before{
+*::before {
     box-sizing: inherit;
 }
 
-a{
+a {
     color: inherit;
     text-decoration: none;
 }
 
-ul{
+ul {
     list-style: none;
 }
-  
-.container{
+
+.container {
     max-width: 1220px;
     padding: 0 10px;
     margin: 0 auto;
 }
-  
-body{
+
+body {
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -33,50 +31,50 @@ body{
     color: #1b1b1b;
 }
 
-.header{
+.header {
     margin-bottom: 90px;
 }
-  
-.header__inner{
+
+.header__inner {
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
 }
 
-.header__title{
-    font-family: "Playfair Display", serif;  
+.header__title {
+    font-family: "Playfair Display", serif;
     font-weight: 400;
     text-transform: uppercase;
     margin-left: auto;
 }
 
-.menu{
+.menu {
     margin-left: 130px;
     margin-right: 185px;
 }
 
-.menu__item{
+.menu__item {
     font-size: 12px;
     margin-bottom: 10px;
     text-transform: uppercase;
 }
 
-.user-nav{
+.user-nav {
     display: flex;
     gap: 0 20px;
 }
 
-.top{    
+.top {
     margin-bottom: 100px;
 }
 
-.top-slide{    
+.top-slide {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
 }
 
-.top-slide__inner{
+.top-slide__inner {
     min-height: 700px;
     display: flex;
     justify-content: space-between;
@@ -84,79 +82,79 @@ body{
     padding: 0 10px;
 }
 
-.top-slide__content{
+.top-slide__content {
     flex-basis: 183px;
     margin-top: -83px;
 }
 
-.top-slide__title{
-    font-family: "Playfair Display", serif; 
+.top-slide__title {
+    font-family: "Playfair Display", serif;
     font-weight: 400;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     font-size: 70px;
     line-height: 1.3;
 }
 
-.top-slide__subtitle{
+.top-slide__subtitle {
     font-size: 24px;
     margin-bottom: 10px;
 }
 
-.top-slide__text{
+.top-slide__text {
     margin-bottom: 20px;
 }
 
-.top-slide__btn{
+.top-slide__btn {
     margin-left: auto;
 }
 
-.button{
+.button {
     color: #7449BB;
     text-transform: uppercase;
-    font-weight: 700;    
+    font-weight: 700;
     padding: 21px 55px;
     border: 1px solid #7449BB;
-    display: inline-block;   
+    display: inline-block;
     transition: all .3s ease;
 }
 
-.button:hover{
+.button:hover {
     color: #fff;
     background-color: #7449BB;
 }
 
 .swiper-button-prev::after,
-.swiper-button-next::after{
+.swiper-button-next::after {
     content: none;
 }
 
-.container-arrow{
+.container-arrow {
     position: relative;
     padding: 0;
     max-width: 1200px;
 }
 
-.top .swiper{
+.top .swiper {
     padding-bottom: 50px;
 }
 
-.swiper-button-next{
+.swiper-button-next {
     left: 75px;
     right: auto;
 }
 
-.about{
+.about {
     margin-bottom: 100px;
     overflow: hidden;
 }
 
 
-.about__inner{
+.about__inner {
     padding-left: 200px;
 }
 
-.about__title{
-    font-family: "Playfair Display", serif; 
+.about__title {
+    font-family: "Playfair Display", serif;
     font-weight: 400;
     font-size: 32px;
     text-transform: uppercase;
@@ -165,66 +163,66 @@ body{
     margin-bottom: 20px;
 }
 
-.about__textbox{
+.about__textbox {
     margin-bottom: 150px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
 }
 
-.about__text{
+.about__text {
     flex-basis: 387px;
     line-height: 1.2;
 }
 
-.about__text p{
-    margin-bottom: 15px;   
+.about__text p {
+    margin-bottom: 15px;
 }
 
-.about__text--bold{
+.about__text--bold {
     font-weight: 700;
 }
 
-.about__item-title{
+.about__item-title {
     margin-bottom: 20px;
 }
 
-.about__slider{
+.about__slider {
     width: 1800px;
     padding-left: 200px;
     margin-left: -200px;
     padding-bottom: 20px;
 }
 
-.about__arrow{
+.about__arrow {
     margin-left: -198px;
     margin-top: -6px;
 }
 
 .container-arrow .swiper-button-next.swiper-button-disabled,
-.swiper-button-prev.swiper-button-disabled{
+.swiper-button-prev.swiper-button-disabled {
     opacity: 1;
 }
 
-.about__btn{
+.about__btn {
     margin-top: 25px;
 }
 
-.accordeon{
+.accordeon {
     margin-bottom: 223px;
 }
 
-.accordeon__inner{
+.accordeon__inner {
     padding-left: 200px;
 }
 
-.accordeon__item{
+.accordeon__item {
     border-bottom: 1px solid #000;
     padding: 0 101px 0 0;
     position: relative;
 }
 
-.accordeon__item::before{
+.accordeon__item::before {
     content: '';
     position: absolute;
     width: 16px;
@@ -234,7 +232,7 @@ body{
     top: 50px;
 }
 
-.accordeon__item:last-child::after{
+.accordeon__item:last-child::after {
     content: '';
     position: absolute;
     background-image: url(../images/accordeon-img.jpg);
@@ -244,39 +242,92 @@ body{
     left: 268px;
 }
 
-.accordeon__triger{
+.accordeon__triger {
     display: flex;
     justify-content: space-between;
     cursor: pointer;
     padding-top: 50px;
 }
 
-.accordeon__triger-title{
+.accordeon__triger-title {
     text-transform: uppercase;
     font-size: 24px;
     flex-basis: 300px;
     padding-bottom: 42px;
 }
 
-.accordeon__triger-text{
+.accordeon__triger-text {
     flex-basis: 387px;
     margin-right: 104px;
     padding-bottom: 20px;
 }
 
-.accordeon__item--active .accordeon__content{
+.accordeon__item--active .accordeon__content {
     display: block;
 }
 
-.accordeon__content{
+.accordeon__content {
     padding-top: 20px;
     padding-bottom: 20px;
     display: none;
 }
 
-.accordeon__content p{
+.accordeon__content p {
     margin-bottom: 10px;
 }
 
+.products {
+    margin-bottom: 150px;
+}
 
+.products__inner {
+    position: relative;
+    min-height: 647px;
+}
 
+.products__tilte {
+    font-family: "Playfair Display", serif;
+    line-height: 1.34;
+    font-size: 32px;
+    width: 100px;
+}
+
+.products__items {
+    display: flex;
+    gap: 0 20px;
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+
+.products__item {
+    text-align: center;
+}
+
+.products__item-step {
+    text-transform: uppercase;
+    font-weight: 700;
+    opacity: 0.5;
+    margin-bottom: 20px;
+}
+
+.products__item-img{
+    margin-bottom: 20px;
+}
+
+.products__item-name {
+    margin-bottom: 10px;
+}
+
+.products__item-name span{
+    display: block;
+    font-weight: 700;
+    margin-bottom: 10px;
+} 
+
+.products__item-price {
+    font-family: "Playfair Display", serif;
+    line-height: 1.34;
+    font-size: 32px;
+    font-variant-numeric: oldstyle-nums;
+}
