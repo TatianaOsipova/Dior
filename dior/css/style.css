@@ -311,7 +311,7 @@ body {
     margin-bottom: 20px;
 }
 
-.products__item-img{
+.products__item-img {
     margin-bottom: 20px;
 }
 
@@ -319,11 +319,11 @@ body {
     margin-bottom: 10px;
 }
 
-.products__item-name span{
+.products__item-name span {
     display: block;
     font-weight: 700;
     margin-bottom: 10px;
-} 
+}
 
 .products__item-price {
     font-family: "Playfair Display", serif;
