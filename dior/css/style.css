@@ -438,8 +438,6 @@ body {
     fill: #7449BB;
 }
 
-.footer__social-link {}
-
 .footer__nav {
     display: flex;
     justify-content: flex-end;
@@ -451,6 +449,7 @@ body {
     gap: 0 20px;
 }
 
-.footer__nav-item {}
+@media(max-width: 1500px){
+    
+}
 
-.footer__nav-link {}
