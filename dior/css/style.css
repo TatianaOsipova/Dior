@@ -449,7 +449,38 @@ body {
     gap: 0 20px;
 }
 
-@media(max-width: 1500px){
+@media(max-width: 992px){
+    .header__title{
+        display: none;
+    }
+
+    .menu{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+
+
+
+}
+
+@media(max-width: 420px){
+    .header__inner{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .menu{
+        padding-top: 30px;
+        width: 100%;
+        text-align: right;
+    }
+
+    .logo,
+    .user-nav{
+        order: -1;
+    }
+
     
 }
 
